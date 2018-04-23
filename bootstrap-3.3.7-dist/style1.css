@@ -1,0 +1,98 @@
+h1,h2,h3,h4,h5,h6,p{
+}
+
+.top-bar {
+
+	      background-color:#009999;
+	      margin-top: 10px;
+	      
+
+         }
+.text-right{
+	color:white;
+	margin-right: 15px;
+	margin-top: 8px;
+}   
+#img1{width:225px; }    
+#img2{margn: auto;
+	  width: 100%;
+      }  
+.my-menu{margin-top: 50px;
+        }
+.my-menu .navbar-default{
+	background:none;
+	border:none;  
+}       
+.my-menu .navbar-nav .active a , .my-menu .navbar-nav .active a:hover{
+	background-color: #009999;
+	color: white;
+} 
+.my-menu .navbar-nav li a:hover{
+     background-color: #009999;
+     color: white;
+}
+
+
+.heading{
+	text-align: center;
+	padding: 5px;
+	font-size: 35px;
+	font-weight: 800;
+	border-width: 3px;
+	border-bottom-style: ridge;
+	border-color: #009999; 
+}
+.well:hover{
+	box-shadow: -1px 2px 18px #888888;
+}
+.footer{
+
+	background-color:#7C7200; border:solid 8px #7C7200; border-radius:20px; margin:2%;
+	min-height:200px; width:auto;
+}
+
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 70%;
+      margin: auto;
+  }
+
+.img-left
+{
+	float: left;
+	margin-right: 20px; 
+}
+.img-nt
+{
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 10px;
+
+}
+
+
+
+@media screen and (max-width:768px) 
+		{
+
+			.my-menu .pull-right
+			{
+				float: none !important;
+			}
+			.img-border
+			{
+				float: none;
+				margin: 0 auto 0;
+			}
+			.img-nee
+			{
+				float:none;
+	            margin: 0 auto 0;
+	           
+			}
+			
+
+			
+
+
+		}
